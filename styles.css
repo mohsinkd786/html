@@ -31,5 +31,5 @@ input[type=text],input[type=password]{
     height: 130px;
     overflow:auto;
     scroll-behavior: auto;
-    text-shadow: 3px 2.5px blue;
+    text-shadow: 3px 4px 5px #000;
 }
