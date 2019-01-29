@@ -8,16 +8,27 @@ table{
     font-style: oblique;
 }
 input[type=text],input[type=password]{
-    width: 100%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    width: 5em;
+    height: 2.5em;
+    border: 1px solid pink;
+    border-radius: 3px;
     background-color:rgb(6,130, 190,0.15);
-    box-shadow: inset 0px 0px 20px 10p rgb(0,0,0,0.6);
-    -webkit-box-shadow: inset 0px 0px 20px 10p rgb(0,0,0,0.6); /* Firefox chrome safari*/
-    -moz-box-shadow: inset 0px 0px 20px 10p rgb(0,0,0,0.6); /* Firefox */
+    box-shadow: inset 0px 0px 20px 10p rgb(0,0,0,0.20);
+    -webkit-box-shadow: inset 0px 0px 20px 10p rgb(0,0,0,0.20); /* Firefox chrome safari*/
+    -moz-box-shadow: inset 0px 0px 20px 10p rgb(0,0,0,0.20); /* Firefox */
 }
+input[type=text]:focus,input[type=password]:focus {
+    width: 100%;
+  }
 .button{
-    background-image: url('hood.jpg');
-    background-size: 70%;
-    background-position: 115px -250px;
+    background: url('navpsrite.gif') 0 0 no-repeat;
+    top: 0px;
+    left: 0px;
+    width: 45px;
+    height: 30px;
+    background-size: 100%; 
 }
 .href-img{
     width: 15%;
