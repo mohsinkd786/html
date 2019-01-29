@@ -62,7 +62,5 @@ tr{
 }
 td{
     padding: 5px 5px 5px 5px;
-}
-span{
-    background-color: aqua;
+    text-shadow: 1px 4px blue;
 }
